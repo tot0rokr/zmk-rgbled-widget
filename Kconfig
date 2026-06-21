@@ -24,9 +24,11 @@ config RGBLED_WIDGET_WS2812
 if RGBLED_WIDGET_WS2812
 
 config LED_STRIP
+    bool
     default y
-    
+
 config WS2812_STRIP
+    bool
     default y
 
 config RGBLED_WIDGET_LED_COUNT
